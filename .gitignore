@@ -1,9 +1,6 @@
 Serveur/Serveur_1.20.1_mods/logs
 Serveur/Serveur_1.20.1_mods/logs/
-
 **/logs
-
 *.log
 *.log.gz
-*.gz
 *.gz
