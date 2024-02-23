@@ -1,0 +1,1 @@
+java -Xmx16G -jar fabric-server-mc.1.20.1.jar nogui
