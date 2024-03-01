@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Louis Tanchou</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="C'est mon portfolio">
+    <meta name="author" content="Louis Tanchou">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="css/kube.min.css" />
+    <link rel="stylesheet" href="css/font-awesome.min.css" />
+    <link rel="stylesheet" href="css/custom.min.css" />
+    <link rel="shortcut icon" href="img/favicon.png" />
+	<link href='https://fonts.googleapis.com/css?family=Playfair+Display+SC:700' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
+	<style>
+		.intro h1:before {
+			/* Edit this with your name or anything else */
+			content: 'Tanchou';
+		}
+	</style>
+</head>
+<body>
+	<!-- Navigation -->
+	<div class="main-nav">
+		<div class="container">
+			<header class="group top-nav">
+				<div class="navigation-toggle" data-tools="navigation-toggle" data-target="#navbar-1">
+				    <span class="logo">Portfolio</span>
+				</div>
+			    <nav id="navbar-1" class="navbar item-nav">
+				    <ul>
+				        <li class="active"><a href="#about">A propos de moi</a></li>
+				        <li><a href="#experiences">Experiences</a></li>
+				        <li><a href="#achievements">Achievements</a></li>
+				        <li><a href="#skills">Skills</a></li>
+				    </ul>
+				</nav>
+			</header>
+		</div>
+	</div>
+
+	<!-- Introduction -->
+	<div class="intro section" id="about">
+		<div class="container">
+			<p>Bonjour je m'appelle Louis voici mon portfolio</p>
+			<div class="units-row units-split wrap">
+				<div class="unit-20">
+					<img src="img/ava.jpg" alt="Avatar">
+				</div>
+				<div class="unit-80">
+					<h1>Je vie<br><span id="typed"></span></h1>
+				</div>
+				<p>
+					Je suis actuellement étudiant en 1ere année de BUT Informatique et a la recherche d'une alternance pour l'année 2024-2025 <br>
+					Numéro : 06 33 88 23 76<br>
+					Mail : louis@tanchou.fr<br>
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					louis.tanchou@gmail.com
+				</p>
+			</div>
+		</div>
+	</div>
+
+	<!-- Work Experience -->
+	<div class="work section second" id="experiences">
+		<div class="container">
+			<h1>Experience de <br>Travail</h1>
+			<ul class="work-list">
+				<li>2018</li>
+				<li><a href="#">Renault</a></li>
+				<li>Stage de 3ème</li>
+			</ul>
+			<ul class="work-list">
+				<li>2022</li>
+				<li><a href="#">BTP</a></li>
+				<li>Maçonnerie et intérieur</li>
+			</ul>
+			<ul class="work-list">
+				<li>2023</li>
+				<li><a href="#">Station de lavage</a></li>
+				<li>Technicien, nettoyage, comptabilité</li>
+			</ul>
+		</div>
+	</div>
+
+	<!-- Award & Achievements -->
+	<div class="award section second" id="achievements">
+		<div class="container">
+			<h1>Diplome</h1>
+			<ul class="award-list list-flat">
+				<li>Juin 2023</li>
+				<li>Obtention du BAC STI2D</li>
+				<li>Lycée Léonard de vinci</li>
+			</ul>
+			<ul class="award-list list-flat">
+				<li>Juin 2018</li>
+				<li>Obtention du brevet</li>
+			</ul>
+			<ul class="award-list list-flat">
+			</ul>
+		</div>
+	</div>
+
+	<!-- Technical Skills -->
+	<div class="skills section second" id="skills">
+		<div class="container">
+			<h1>Compétence<br>Technique</h1>
+			<ul class="skill-list list-flat">
+				<li>Web Technology</li>
+				<li>HTML / CSS</li>
+			</ul>
+			<ul class="skill-list list-flat">
+				<li>Base de donnée (en apprentissage)</li>
+				<li>Oracle</li>
+			</ul>
+			<ul class="skill-list list-flat">
+				<li>Language de programation</li>
+				<li>C / JAVA / PYTHON</li>
+			</ul>
+		</div>
+	</div>
+
+	<footer>
+		<div class="container">
+			<div class="units-row">
+			    <div class="unit-50">
+			    	<p>Portfolio de Louis Tanchou</p>
+			    </div>
+			    <div class="unit-50">
+					<ul class="social list-flat right">
+						<li><a href="mailto:louis.tanchou@gmail.com"><i class="fa fa-send"></i></a></li>
+
+					</ul>
+			    </div>
+			</div>
+		</div>
+	</footer>
+
+	<!-- Javascript -->
+	<script src="js/jquery.min.js"></script>
+	<script src="js/typed.min.js"></script>
+    <script src="js/kube.min.js"></script>
+    <script src="js/site.js"></script>
+    <script>
+		function newTyped(){}$(function(){$("#typed").typed({
+		// Change to edit type effect
+		strings: ["en FRANCE", "en ILE de france", "à Savigny le temple"],
+
+		typeSpeed:90,backDelay:700,contentType:"html",loop:!0,resetCallback:function(){newTyped()}}),$(".reset").click(function(){$("#typed").typed("reset")})});
+    </script>
+</body>
+</html>
